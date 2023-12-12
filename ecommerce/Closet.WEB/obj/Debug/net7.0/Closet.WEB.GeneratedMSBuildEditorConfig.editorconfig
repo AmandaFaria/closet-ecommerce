@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Closet.WEB
+build_property.RootNamespace = Closet.WEB
+build_property.ProjectDir = /Users/amandafaria/Documents/ecommerce/Closet.WEB/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/amandafaria/Documents/ecommerce/Closet.WEB
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/AdicionarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRpY2lvbmFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/AdicionarRoupa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRpY2lvbmFyUm91cGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/AtualizarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXR1YWxpemFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/AtualizarRoupa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXR1YWxpemFyUm91cGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Categorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmlhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/DeletarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRhckNhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/DeletarRoupa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRhclJvdXBhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Roupa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm91cGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Roupas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm91cGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandafaria/Documents/ecommerce/Closet.WEB/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y3umuw4xqn

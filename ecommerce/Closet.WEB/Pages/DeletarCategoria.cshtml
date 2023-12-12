@@ -1,0 +1,23 @@
+@page
+@model Closet.WEB.Pages.DeletarCategoria
+@{
+    ViewData["Title"] = "DeletarCategoria";
+}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a class="nav-home" asp-page="/Index">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Deletar Categoria</li>
+  </ol>
+</nav>
+
+<h1 class="titulologin">Deletar Categoria</h1>
+<p class="bemvindo">Poxa, uma pena não ter dado certo =( Deseja deletar alguma categoria de roupa hoje?</p>
+<br>
+<form>
+    <div class="mb-3">
+        <label class="formEmail" for="inputNomeRoupa">Id da Categoria:</label>
+        <input asp-for="Categoria!.Id" type="number" min="1" class="form-control" id="exampleInputIdRoupa" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn" asp-page-handler="Deletar">Deletar</button>
+</form>

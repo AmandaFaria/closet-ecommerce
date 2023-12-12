@@ -1,0 +1,23 @@
+@page
+@model Closet.WEB.Pages.Shared.DeletarRoupa
+@{
+    ViewData["Title"] = "DeletarRoupa";
+}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a class="nav-home" asp-page="/Index">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Deletar Roupa</li>
+  </ol>
+</nav>
+
+<h1 class="titulologin">Deletar Roupa</h1>
+<p class="bemvindo">Poxa, uma pena não ter dado certo =( Deseja deletar alguma peça de roupa hoje?</p>
+<br>
+<form>
+    <div class="mb-3">
+        <label class="formEmail" for="inputNomeRoupa">Id da Roupa:</label>
+        <input type="number" min="1" class="form-control" id="exampleInputIdRoupa" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn">Deletar</button>
+</form>

@@ -1,0 +1,20 @@
+@page
+@model Closet.WEB.Pages.Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="centralizar titulologin">@ViewData["Title"]</h1>
+<p class="bemvindo centralizar">Olá, seja bem-vindo(a) novamente =)</p>
+<form>
+    <div class="mb-3">
+        <label class="formEmail" for="inputEmail1">Email:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label class="formEmail" for="inputPassword1">Senha:</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <button type="submit" class="btn">Entrar</button>
+</form>
+<p class="perguntaCadastro">Ainda não possui uma conta? <a class="msgCadastro" asp-page="/Cadastro">Cadastre-se</a></p>

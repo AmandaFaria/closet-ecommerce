@@ -1,0 +1,23 @@
+@page "{id:int}"
+@model Closet.WEB.Pages.AtualizarCategoria
+@{
+    ViewData["Title"] = "AtualizarCategoria";
+}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a class="nav-home" asp-page="/Index">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Atualizar Categoria</li>
+  </ol>
+</nav>
+
+<h1 class="titulologin">Atualizar Categoria</h1>
+<p class="bemvindo">Olá, deseja atualizar alguma categoria de roupa hoje? =)</p>
+<br>
+<form>
+    <div class="mb-3">
+        <label class="formEmail" for="inputNomeRoupa">Nome da Categoria:</label>
+        <input type="text" class="form-control" id="exampleInputNomeRoupa" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn">Atualizar</button>
+</form>

@@ -1,0 +1,30 @@
+@page
+@model Closet.WEB.Pages.Categorias
+@{
+  ViewData["Title"] = "Categorias";
+}
+
+<h1 class="titulologin">@ViewData["Title"]</h1>
+<p class="bemvindo textoCategoria">Olá, aqui você pode estar acompanhando todas as nossas categorias cadastradas =)</p>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th class="coluna" scope="col">Id</th>
+      <th class="coluna" scope="col">Categorias Cadastradas</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  @foreach (var categoria in Model.categorias)
+  {
+    <tbody>
+      <tr>
+        <td scope="row">@categoria.Id</td>
+        <td>@categoria.NomeCategoria</td>
+        <td><a href="/AtualizarCategoria/@categoria.ValueId"><button class="btn-att-del">Atualizar</button></a></td>
+        <td><a asp-page="/DeletarCategoria"><button class="btn-att-del">Deletar</button></a></td>
+      </tr>
+    </tbody>
+  }
+</table>

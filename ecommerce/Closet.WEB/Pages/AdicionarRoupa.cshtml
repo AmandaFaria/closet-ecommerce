@@ -1,0 +1,39 @@
+@page
+@model Closet.WEB.Pages.AdicionarRoupa
+@{
+    ViewData["Title"] = "AdicionarRoupa";
+}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a class="nav-home" asp-page="/Index">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Adicionar Roupa</li>
+  </ol>
+</nav>
+
+<h1 class="titulologin">Adicionar Roupa</h1>
+<p class="bemvindo">Olá, deseja adicionar alguma peça de roupa hoje? =)</p>
+<br>
+<form>
+    <div class="mb-3">
+        <label class="formEmail" for="inputNomeRoupa">Nome da Roupa:</label>
+        <input type="text" class="form-control" id="exampleInputNomeRoupa" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label class="formEmail" for="inputPrecoRoupa">Preço da Roupa:</label>
+        <input type="text" class="form-control" id="exampleInputPrecoRoupa">
+    </div>
+    <div class="mb-3">
+        <label class="formEmail" for="inputDescricaoRoupa">Descrição da Roupa:</label>
+        <input type="text" class="form-control" id="exampleInputDescricaoRoupa">
+    </div>
+    <div class="mb-3">
+        <label class="formEmail" for="inputFotoRoupa">Foto da Roupa:</label>
+        <input type="url" class="form-control" id="exampleInputFotoRoupa">
+    </div>
+     <div class="mb-3">
+        <label class="formEmail" for="inputQuantidadeRoupa">Quantidade da Roupa:</label>
+        <input type="number" min="1" class="form-control" id="exampleInputQuantidadeRoupa">
+    </div>
+    <button type="submit" class="btn">Adicionar</button>
+</form>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V3ZgVJBXdj3pPDi+5OUzaCjBBD9FSFwbBruR7GBSkjl8gawzk0Fsk+micUcHDhN5pzj5h9mo5JsfmXAiPDlglw==",
+  "success": true,
+  "projectFilePath": "/Users/amandafaria/Documents/ecommerce/Closet.WEB/Closet.WEB.csproj",
+  "expectedPackageFiles": [
+    "/Users/amandafaria/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
